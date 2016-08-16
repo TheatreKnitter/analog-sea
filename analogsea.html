@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="analogsea.css">
+	<meta name="Analog Sea sign up" content="sign up or log into Analog Sea">
+	<title>AnalogSea sign up</title>
+</head>
+
+<body>
+	<div class="logo">
+		<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/s1lUoigoX28V3JL7MWMR/FEWD-001/v5/assets2/1.6.2_challenge_signup_form/logo.png">
+	</div>
+
+	<div class="box">
+		<form class="sign-up" action="/signup" method="post">
+			<h1>Sign up</h1>
+
+			<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="foo@bar.com" required />
+
+			<label for="password">Password</label>	
+				<input type="text" name="password" id="password" placeholder="1234passwOrd" required />
+			
+			<button type="submit">Sign Up</button>
+
+		</form>
+		<a href="/forgot-password/new">Forgot password?</a>
+	</div>
+
+	<p class="log-in">Already have an account? <a href="/login">Log In</a></p>
+</body>
+</html>
